@@ -98,7 +98,7 @@ main {
 }
 .back {
     margin-top: px;
-    background-image: url("Assets/images/cover2.JPG");
+    background-image: url("Assets/Images/cover2.JPG");
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -277,7 +277,7 @@ article h2 {
 }
 .achieve {
     margin-top: px;
-    background-image: url("Assets/images/tropi.jpg");
+    background-image: url("Assets/Images/tropi.jpg");
     background-size: cover;
     background-position: center;
     padding: 40px;
@@ -904,7 +904,7 @@ aside {
         }
         .back {
             margin-top: px;
-            background-image: url("Assets/images/cover2.JPG");
+            background-image: url("Assets/Images/cover2.JPG");
             background-size: cover;
             background-position: center;
             height: 300px;
