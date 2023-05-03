@@ -696,9 +696,295 @@ aside {
     width: 25%;
     padding-left: 20px;
     margin-top: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
+.crew {
+  /* display: inline-block; */
+  margin-left: 5px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+  max-height: 3100px;
+}
+
+.card-crew {
+  display: inline-block;
+  margin: 5px 10px;
+  width: 190px;
+  height: 254px;
+  position: relative;
+  background: #f5f5f5;
+  color: #252525;
+  border-radius: 20px;
+  overflow: hidden;
+  line-height: 150%;
+  box-shadow: 0px 10px 20px rgba(80, 80, 80, 0.2);
+  transition: box-shadow .3s ease-in-out;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
+  background: white;
+  bottom: 0px;
+  padding: 5px 0px;
+  transition: 0.5s;
+  transform: translateY(6em);
+}
+
+/* Image */
+.card-crew:nth-child(1) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0014.png');
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(2) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0008.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(3) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0012.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(4) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0007.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(5) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0006.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(6) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0010.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(7) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0009.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(8) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0005.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(9) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0001.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(10) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0003.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(11) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0004.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(12) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0013.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(13) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0011.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(14) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0002.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(15) .card-crew-img {
+  background-image: url('Assets/Crew/20230225_222824_0000.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+/* Buttons */
+.social-media {
+  position: absolute;
+  bottom: -10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+  transform: translateY(-6em);
+  z-index: 3;
+}
+
+.social-media li {
+  background: #f5f5f5;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: all .3s ease-in;
+  box-shadow:  1px 1px 1px #f7f7f7,
+             -1px -1px 1px #7e7b7b;
+
+}
+/* Icons */
+.social-media li ion-icon {
+  --size: 24px;
+  width: var(--size);
+  height: var(--size);
+  fill: rgb(47, 0, 233);
+}
+
+.social-media li:hover, .social-media li:hover ion-icon{
+  /* --size: 24px;
+  width: var(--size);
+  height: var(--size); */
+  fill: white;
+  background: #000;
+}
+
+/* Texts */
+.card-info .title {
+  /* font-size: 1.5em; */
+  font-weight: 600;
+}
+
+.card-info .subtitle {
+  /* letter-spacing: 1px; */
+  font-size: 0.9em;
+}
+
+
+/* Hovers */
+.card-crew:hover {
+  box-shadow: 0px 15px 30px rgba(80, 80, 80, 0.3);
+}
+
+.card-crew:hover .card-crew-img {
+  /* transform: translateY(-5em); */
+}
+
+.card-crew:hover .card-info {
+  /* transition: 2s; */
+  /* opacity: 1; */
+  z-index: 3;
+  transform: translateY(-0.5px);
+}
+
+.card-crew:hover .social-media li {
+  transform: translateY(-5%);
+  opacity: 1;
+}
+
+.card-crew:hover .social-media li:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.card-crew:hover .social-media li:nth-child(2) {
+  transition-delay: .1s;
+}
+
+.card-crew:hover .social-media li:nth-child(3) {
+  transition-delay: .2s;
+}
 
 .profile {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -710,7 +996,7 @@ aside {
     margin-bottom: 30px;
 }
 #contact {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 20%;
     margin-right: 20%;
     padding-bottom: 10px;
@@ -747,7 +1033,7 @@ aside {
     font-weight: bolder;
     border: white solid;
     background: white;
-    margin-top: 15px;
+    margin-top: 25px;
     padding: 15px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -959,6 +1245,16 @@ aside {
   .content h4 {
     text-align: left;
     font-size: smaller;
+  }
+
+  .crew {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .card-crew {
+    margin-left: 20px;
+    margin-right: 20px;
   }
     
         footer {
