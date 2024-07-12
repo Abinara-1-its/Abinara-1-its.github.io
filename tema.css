@@ -651,7 +651,31 @@ article.alumni .divisi {
     border-radius: 15px;
     background: #1f2541;
     position: absolute; 
-    background-image: url("Assets/Alumni/Hatmantyo - Hatmantyo Sardana.jpeg");
+    background-image: url("Assets/Alumni/Hatmantyo\ -\ Hatmantyo\ Sardana.jpeg");
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .card-img:nth-child(11) .imgbox .img{
+    border-radius: 15px;
+    background: #1f2541;
+    position: absolute; 
+    background-image: url("Assets/Alumni/20230225_222824_0014.png");
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .card-img:nth-child(12) .imgbox .img{
+    border-radius: 15px;
+    background: #1f2541;
+    position: absolute; 
+    background-image: url("Assets/Alumni/20230225_222824_0005.png");
     background-size: cover;
     background-position: center;
     top: 0;
@@ -736,7 +760,7 @@ aside {
 
 /* Image */
 .card-crew:nth-child(1) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0014.png');
+  background-image: url('Assets/Crew/Elektrical.png');
   color: white;
   background-size: cover;
   background-position: center;
@@ -748,7 +772,7 @@ aside {
 }
 
 .card-crew:nth-child(2) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0008.png');
+  background-image: url('Assets/Crew/hikam.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -759,7 +783,7 @@ aside {
 }
 
 .card-crew:nth-child(3) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0012.png');
+  background-image: url('Assets/Crew/39.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -770,7 +794,7 @@ aside {
 }
 
 .card-crew:nth-child(4) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0007.png');
+  background-image: url('Assets/Crew/36.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -781,7 +805,7 @@ aside {
 }
 
 .card-crew:nth-child(5) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0006.png');
+  background-image: url('Assets/Crew/43.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -792,7 +816,7 @@ aside {
 }
 
 .card-crew:nth-child(6) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0010.png');
+  background-image: url('Assets/Crew/41.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -803,7 +827,7 @@ aside {
 }
 
 .card-crew:nth-child(7) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0009.png');
+  background-image: url('Assets/Crew/45.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -814,7 +838,7 @@ aside {
 }
 
 .card-crew:nth-child(8) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0005.png');
+  background-image: url('Assets/Crew/28.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -825,7 +849,7 @@ aside {
 }
 
 .card-crew:nth-child(9) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0001.png');
+  background-image: url('Assets/Crew/47.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -836,7 +860,7 @@ aside {
 }
 
 .card-crew:nth-child(10) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0003.png');
+  background-image: url('Assets/Crew/32.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -847,7 +871,7 @@ aside {
 }
 
 .card-crew:nth-child(11) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0004.png');
+  background-image: url('Assets/Crew/30.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -858,7 +882,7 @@ aside {
 }
 
 .card-crew:nth-child(12) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0013.png');
+  background-image: url('Assets/Crew/34.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -869,7 +893,7 @@ aside {
 }
 
 .card-crew:nth-child(13) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0011.png');
+  background-image: url('Assets/Crew/2.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -880,7 +904,7 @@ aside {
 }
 
 .card-crew:nth-child(14) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0002.png');
+  background-image: url('Assets/Crew/49.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -891,7 +915,7 @@ aside {
 }
 
 .card-crew:nth-child(15) .card-crew-img {
-  background-image: url('Assets/Crew/20230225_222824_0000.png');
+  background-image: url('Assets/Crew/13.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -900,6 +924,118 @@ aside {
   transition: .2s;
   z-index: 1;
 }
+
+.card-crew:nth-child(16) .card-crew-img {
+  background-image: url('Assets/Crew/16.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(17) .card-crew-img {
+  background-image: url('Assets/Crew/18.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(18) .card-crew-img {
+  background-image: url('Assets/Crew/Andika.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(19) .card-crew-img {
+  background-image: url('Assets/Crew/Silvi.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(20) .card-crew-img {
+  background-image: url('Assets/Crew/20.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(21) .card-crew-img {
+  background-image: url('Assets/Crew/3.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(22) .card-crew-img {
+  background-image: url('Assets/Crew/7.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(23) .card-crew-img {
+  background-image: url('Assets/Crew/5.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(24) .card-crew-img {
+  background-image: url('Assets/Crew/10.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+.card-crew:nth-child(25) .card-crew-img {
+  background-image: url('Assets/Crew/12');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .2s;
+  z-index: 1;
+}
+
+
 
 /* Buttons */
 .social-media {
